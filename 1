@@ -1,0 +1,23 @@
+	
+
+#include "stdafx.h"
+#include <iostream>
+Using namespace std;
+Double z(double x, double y);
+Double z(double x);
+
+Int main() {
+Cout«"\nВведите х и у. Ну а если не хотите вводить у - введите 0 вместо него\n ";
+Double y,x;
+Cin»x»y;
+Cout«"\nРезультат вычислений = ";
+If (y) cout«z(x,y);
+Else cout«z(x);
+Return 0;
+}
+Double z(double x, double y) {
+Return x-y;
+}
+Double z(double x) {
+Return 2*x+1;
+}
